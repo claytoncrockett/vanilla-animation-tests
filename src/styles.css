@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+.letterC {
+  position: relative;
+  animation: cAnimation;
+  animation-duration: 5s;
+}
+
+@keyframes cAnimation {
+  0% {
+    left: 200px;
+    top: 300px;
+  }
+  25% {
+    left: 250px;
+    top: 400px;
+  }
+  50% {
+    left: 100px;
+    top: 100px;
+  }
+  75% {
+    left: 200px;
+    top: 120px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
